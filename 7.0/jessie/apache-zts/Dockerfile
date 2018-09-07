@@ -111,11 +111,11 @@ ENV PHP_CFLAGS="-fstack-protector-strong -fpic -fpie -O2"
 ENV PHP_CPPFLAGS="$PHP_CFLAGS"
 ENV PHP_LDFLAGS="-Wl,-O1 -Wl,--hash-style=both -pie"
 
-ENV GPG_KEYS 0BD78B5F97500D450838F95DFE857D9A90D90EC1 6E4F6AB321FDC07F2C332E3AC2BF0BC433CFC8B3
+ENV GPG_KEYS 1A4E8B7277C42E53DBA9C7B9BCAA30EA9C0D5763 6E4F6AB321FDC07F2C332E3AC2BF0BC433CFC8B3
 
-ENV PHP_VERSION 5.6.37
-ENV PHP_URL="https://secure.php.net/get/php-5.6.37.tar.xz/from/this/mirror" PHP_ASC_URL="https://secure.php.net/get/php-5.6.37.tar.xz.asc/from/this/mirror"
-ENV PHP_SHA256="5000d82610f9134aaedef28854ec3591f68dedf26a17b8935727dac2843bd256" PHP_MD5=""
+ENV PHP_VERSION 7.0.31
+ENV PHP_URL="https://secure.php.net/get/php-7.0.31.tar.xz/from/this/mirror" PHP_ASC_URL="https://secure.php.net/get/php-7.0.31.tar.xz.asc/from/this/mirror"
+ENV PHP_SHA256="68f57b3f4587071fb54a620cb83a1cfb3f0bd4ee071e0ce3bf7046a5f2d2f3cf" PHP_MD5=""
 
 RUN set -xe; \
 	\
